@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.funcUsuario > div {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.linha {
+    margin: 20px 0;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+}

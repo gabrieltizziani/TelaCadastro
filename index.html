@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <h1 class="title">Cadastro Usuário</h1>
+            <div class="funcUsuario">
+                <div class="inputbox">
+                    <label class="form-label">Nome Usuário:</label>
+                    <input type="text" required class="form-control">
+                </div>
+                <div class="inputbox">
+                    <label class="form-label">E-Mail Usuário:</label>
+                    <input type="email" required class="form-control">
+                </div>
+                <div class="inputbox">
+                    <label class="form-label">Número Usuário:</label>
+                    <input type="number" required class="form-control">
+                </div>
+                <br />
+                <div>
+                    <button type="submit" class="btn btn-success btn">Cadastrar</button>
+                    <button type="button" class="btn btn-secondary btn">Cancelar</button>
+                    <button type="reset" class="btn btn-danger btn">Limpar</button>
+                </div>
+                <hr class="linha" />
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome Usuário</th>
+                            <th scope="col">E-Mail Usuário</th>
+                            <th scope="col">Número Usuário</th>
+                            <th scope="col">Opções</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
